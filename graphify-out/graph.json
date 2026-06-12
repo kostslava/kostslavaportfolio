@@ -1,0 +1,963 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "portfoliov2_interactive_ux_system",
+        "label": "Interactive UX Enhancement System",
+        "nodes": [
+          "portfoliov2_custom_cursor",
+          "portfoliov2_magnetic_effect",
+          "portfoliov2_glitch_ripple",
+          "portfoliov2_project_preview"
+        ],
+        "relation": "implement",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "portfolio-v2.html"
+      },
+      {
+        "id": "portfoliov2_animation_reveal_system",
+        "label": "Scroll and Animation Reveal System",
+        "nodes": [
+          "portfoliov2_scroll_reveal",
+          "portfoliov2_intersection_observer",
+          "portfoliov2_hero_parallax"
+        ],
+        "relation": "implement",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85,
+        "source_file": "portfolio-v2.html"
+      },
+      {
+        "id": "portfoliov2_mobile_experience",
+        "label": "Mobile Experience Layer",
+        "nodes": [
+          "portfoliov2_mobile_nav",
+          "portfoliov2_touch_tilt",
+          "portfoliov2_custom_cursor"
+        ],
+        "relation": "participate_in",
+        "confidence": "INFERRED",
+        "confidence_score": 0.75,
+        "source_file": "portfolio-v2.html"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "Slava Kostrubin",
+      "file_type": "document",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 841",
+      "source_url": null,
+      "captured_at": null,
+      "author": "Slava Kostrubin",
+      "contributor": null,
+      "id": "portfoliov2_slava_kostrubin",
+      "community": 0,
+      "norm_label": "slava kostrubin"
+    },
+    {
+      "label": "Portfolio Website v2",
+      "file_type": "document",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 1",
+      "source_url": null,
+      "captured_at": null,
+      "author": "Slava Kostrubin",
+      "contributor": null,
+      "id": "portfoliov2_portfolio_site",
+      "community": 0,
+      "norm_label": "portfolio website v2"
+    },
+    {
+      "label": "Custom Cursor with Smooth Follow",
+      "file_type": "rationale",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 39",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_custom_cursor",
+      "community": 3,
+      "norm_label": "custom cursor with smooth follow"
+    },
+    {
+      "label": "Magnetic Hover Effect",
+      "file_type": "rationale",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 769",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_magnetic_effect",
+      "community": 3,
+      "norm_label": "magnetic hover effect"
+    },
+    {
+      "label": "Scroll Reveal Animation",
+      "file_type": "rationale",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 775",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_scroll_reveal",
+      "community": 4,
+      "norm_label": "scroll reveal animation"
+    },
+    {
+      "label": "Floating Project Preview on Hover",
+      "file_type": "rationale",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 537",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_project_preview",
+      "community": 0,
+      "norm_label": "floating project preview on hover"
+    },
+    {
+      "label": "Glitch Ripple Click Effect",
+      "file_type": "rationale",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 1087",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_glitch_ripple",
+      "community": 0,
+      "norm_label": "glitch ripple click effect"
+    },
+    {
+      "label": "Hero Name Parallax on Scroll",
+      "file_type": "rationale",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 1078",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_hero_parallax",
+      "community": 0,
+      "norm_label": "hero name parallax on scroll"
+    },
+    {
+      "label": "Marquee Ticker",
+      "file_type": "rationale",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 400",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_marquee",
+      "community": 0,
+      "norm_label": "marquee ticker"
+    },
+    {
+      "label": "Skills Cloud / Capabilities Section",
+      "file_type": "concept",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 952",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_skills_cloud",
+      "community": 1,
+      "norm_label": "skills cloud / capabilities section"
+    },
+    {
+      "label": "React",
+      "file_type": "concept",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 875",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_react",
+      "community": 6,
+      "norm_label": "react"
+    },
+    {
+      "label": "TypeScript",
+      "file_type": "concept",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 957",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_typescript",
+      "community": 1,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "Next.js",
+      "file_type": "concept",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 958",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_nextjs",
+      "community": 1,
+      "norm_label": "next.js"
+    },
+    {
+      "label": "Three.js",
+      "file_type": "concept",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 903",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_threejs",
+      "community": 2,
+      "norm_label": "three.js"
+    },
+    {
+      "label": "WebGL",
+      "file_type": "concept",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 889",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_webgl",
+      "community": 2,
+      "norm_label": "webgl"
+    },
+    {
+      "label": "Figma",
+      "file_type": "concept",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 961",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_figma",
+      "community": 1,
+      "norm_label": "figma"
+    },
+    {
+      "label": "Node.js",
+      "file_type": "concept",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 962",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_nodejs",
+      "community": 1,
+      "norm_label": "node.js"
+    },
+    {
+      "label": "Motion Design",
+      "file_type": "concept",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 959",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_motion_design",
+      "community": 5,
+      "norm_label": "motion design"
+    },
+    {
+      "label": "UI/UX Design",
+      "file_type": "concept",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 955",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_uiux_design",
+      "community": 1,
+      "norm_label": "ui/ux design"
+    },
+    {
+      "label": "Branding",
+      "file_type": "concept",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 963",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_branding",
+      "community": 5,
+      "norm_label": "branding"
+    },
+    {
+      "label": "Creative Direction",
+      "file_type": "concept",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 964",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_creative_direction",
+      "community": 1,
+      "norm_label": "creative direction"
+    },
+    {
+      "label": "Prototyping",
+      "file_type": "concept",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 966",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_prototyping",
+      "community": 1,
+      "norm_label": "prototyping"
+    },
+    {
+      "label": "Project Name (React / Design System, 2026)",
+      "file_type": "document",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 869",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_project_01",
+      "community": 6,
+      "norm_label": "project name (react / design system, 2026)"
+    },
+    {
+      "label": "Another Project (Full-Stack / WebGL, 2026)",
+      "file_type": "document",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 883",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_project_02",
+      "community": 2,
+      "norm_label": "another project (full-stack / webgl, 2026)"
+    },
+    {
+      "label": "Third Project (Three.js / UX Research, 2023)",
+      "file_type": "document",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 897",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_project_03",
+      "community": 2,
+      "norm_label": "third project (three.js / ux research, 2023)"
+    },
+    {
+      "label": "Fourth Project (Branding / Motion, 2023)",
+      "file_type": "document",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 911",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_project_04",
+      "community": 5,
+      "norm_label": "fourth project (branding / motion, 2023)"
+    },
+    {
+      "label": "GitHub Profile (kostslava)",
+      "file_type": "document",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 974",
+      "source_url": "https://github.com/kostslava",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_github_profile",
+      "community": 0,
+      "norm_label": "github profile (kostslava)"
+    },
+    {
+      "label": "LinkedIn Profile (slava-kostrubin)",
+      "file_type": "document",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 975",
+      "source_url": "https://www.linkedin.com/in/slava-kostrubin",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_linkedin_profile",
+      "community": 0,
+      "norm_label": "linkedin profile (slava-kostrubin)"
+    },
+    {
+      "label": "Twitter Profile (@inslavawetrus_)",
+      "file_type": "document",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 976",
+      "source_url": "https://twitter.com/inslavawetrus_",
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_twitter_profile",
+      "community": 0,
+      "norm_label": "twitter profile (@inslavawetrus_)"
+    },
+    {
+      "label": "IntersectionObserver API",
+      "file_type": "concept",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 1064",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_intersection_observer",
+      "community": 4,
+      "norm_label": "intersectionobserver api"
+    },
+    {
+      "label": "requestAnimationFrame Animation Loop",
+      "file_type": "concept",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 1017",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_raf_animation_loop",
+      "community": 3,
+      "norm_label": "requestanimationframe animation loop"
+    },
+    {
+      "label": "Mobile Bottom Navigation",
+      "file_type": "rationale",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 88",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_mobile_nav",
+      "community": 0,
+      "norm_label": "mobile bottom navigation"
+    },
+    {
+      "label": "Touch Tilt Card Effect (Mobile)",
+      "file_type": "rationale",
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 1127",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "portfoliov2_touch_tilt",
+      "community": 4,
+      "norm_label": "touch tilt card effect (mobile)"
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 6",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_slava_kostrubin"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 974",
+      "weight": 1.0,
+      "source": "portfoliov2_slava_kostrubin",
+      "target": "portfoliov2_github_profile"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 975",
+      "weight": 1.0,
+      "source": "portfoliov2_slava_kostrubin",
+      "target": "portfoliov2_linkedin_profile"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 976",
+      "weight": 1.0,
+      "source": "portfoliov2_slava_kostrubin",
+      "target": "portfoliov2_twitter_profile"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 991",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_custom_cursor"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 974",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_github_profile"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 1087",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_glitch_ripple"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 1078",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_hero_parallax"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 975",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_linkedin_profile"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 1029",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_magnetic_effect"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 850",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_marquee"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 833",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_mobile_nav"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 869",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_project_01"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 883",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_project_02"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 897",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_project_03"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 911",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_project_04"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 1043",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_project_preview"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 1063",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_scroll_reveal"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 952",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_skills_cloud"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 1127",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_touch_tilt"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 976",
+      "weight": 1.0,
+      "source": "portfoliov2_portfolio_site",
+      "target": "portfoliov2_twitter_profile"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "portfolio-v2.html",
+      "source_location": null,
+      "weight": 0.75,
+      "source": "portfoliov2_custom_cursor",
+      "target": "portfoliov2_magnetic_effect"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 1017",
+      "weight": 1.0,
+      "source": "portfoliov2_custom_cursor",
+      "target": "portfoliov2_raf_animation_loop"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 1064",
+      "weight": 1.0,
+      "source": "portfoliov2_scroll_reveal",
+      "target": "portfoliov2_intersection_observer"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "portfolio-v2.html",
+      "source_location": null,
+      "weight": 0.65,
+      "source": "portfoliov2_touch_tilt",
+      "target": "portfoliov2_scroll_reveal"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 963",
+      "weight": 1.0,
+      "source": "portfoliov2_skills_cloud",
+      "target": "portfoliov2_branding"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 964",
+      "weight": 1.0,
+      "source": "portfoliov2_skills_cloud",
+      "target": "portfoliov2_creative_direction"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 961",
+      "weight": 1.0,
+      "source": "portfoliov2_skills_cloud",
+      "target": "portfoliov2_figma"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 959",
+      "weight": 1.0,
+      "source": "portfoliov2_skills_cloud",
+      "target": "portfoliov2_motion_design"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 958",
+      "weight": 1.0,
+      "source": "portfoliov2_skills_cloud",
+      "target": "portfoliov2_nextjs"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 962",
+      "weight": 1.0,
+      "source": "portfoliov2_skills_cloud",
+      "target": "portfoliov2_nodejs"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 966",
+      "weight": 1.0,
+      "source": "portfoliov2_skills_cloud",
+      "target": "portfoliov2_prototyping"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 956",
+      "weight": 1.0,
+      "source": "portfoliov2_skills_cloud",
+      "target": "portfoliov2_react"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 960",
+      "weight": 1.0,
+      "source": "portfoliov2_skills_cloud",
+      "target": "portfoliov2_threejs"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 957",
+      "weight": 1.0,
+      "source": "portfoliov2_skills_cloud",
+      "target": "portfoliov2_typescript"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 955",
+      "weight": 1.0,
+      "source": "portfoliov2_skills_cloud",
+      "target": "portfoliov2_uiux_design"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 965",
+      "weight": 1.0,
+      "source": "portfoliov2_skills_cloud",
+      "target": "portfoliov2_webgl"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 875",
+      "weight": 1.0,
+      "source": "portfoliov2_project_01",
+      "target": "portfoliov2_react"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 903",
+      "weight": 1.0,
+      "source": "portfoliov2_project_03",
+      "target": "portfoliov2_threejs"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "portfolio-v2.html",
+      "source_location": null,
+      "weight": 0.85,
+      "source": "portfoliov2_threejs",
+      "target": "portfoliov2_webgl"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 889",
+      "weight": 1.0,
+      "source": "portfoliov2_project_02",
+      "target": "portfoliov2_webgl"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 918",
+      "weight": 1.0,
+      "source": "portfoliov2_project_04",
+      "target": "portfoliov2_motion_design"
+    },
+    {
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "portfolio-v2.html",
+      "source_location": null,
+      "weight": 0.75,
+      "source": "portfoliov2_uiux_design",
+      "target": "portfoliov2_prototyping"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portfolio-v2.html",
+      "source_location": "line 917",
+      "weight": 1.0,
+      "source": "portfoliov2_project_04",
+      "target": "portfoliov2_branding"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "portfoliov2_interactive_ux_system",
+      "label": "Interactive UX Enhancement System",
+      "nodes": [
+        "portfoliov2_custom_cursor",
+        "portfoliov2_magnetic_effect",
+        "portfoliov2_glitch_ripple",
+        "portfoliov2_project_preview"
+      ],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "portfolio-v2.html"
+    },
+    {
+      "id": "portfoliov2_animation_reveal_system",
+      "label": "Scroll and Animation Reveal System",
+      "nodes": [
+        "portfoliov2_scroll_reveal",
+        "portfoliov2_intersection_observer",
+        "portfoliov2_hero_parallax"
+      ],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "portfolio-v2.html"
+    },
+    {
+      "id": "portfoliov2_mobile_experience",
+      "label": "Mobile Experience Layer",
+      "nodes": [
+        "portfoliov2_mobile_nav",
+        "portfoliov2_touch_tilt",
+        "portfoliov2_custom_cursor"
+      ],
+      "relation": "participate_in",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "portfolio-v2.html"
+    }
+  ]
+}

@@ -565,6 +565,12 @@
       background: linear-gradient(135deg, var(--surface) 0%, oklch(18% 0.02 260) 100%);
     }
 
+    .project-preview-inner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
     @media (max-width: 768px) {
       .project-item {
         grid-template-columns: 1fr;
@@ -1080,7 +1086,7 @@
           <span>React</span>
           <span>Firebase</span>
           <span>EdTech</span>
-          <span>2025</span>
+          <span>2025-2026</span>
         </div>
       </div>
       <span class="project-arrow">↗</span>
@@ -1179,18 +1185,15 @@
   <section class="skills-section">
     <div class="skills-label reveal">Capabilities</div>
     <div class="skills-cloud reveal">
-      <div class="skill-pill"><span>UI/UX Design</span></div>
       <div class="skill-pill"><span>React</span></div>
       <div class="skill-pill"><span>TypeScript</span></div>
+      <div class="skill-pill"><span>JavaScript</span></div>
+      <div class="skill-pill"><span>Web Dev</span></div>
       <div class="skill-pill"><span>Next.js</span></div>
-      <div class="skill-pill"><span>Motion Design</span></div>
+      <div class="skill-pill"><span>Java</span></div>
+      <div class="skill-pill"><span>C++</span></div>
       <div class="skill-pill"><span>Three.js</span></div>
-      <div class="skill-pill"><span>Figma</span></div>
-      <div class="skill-pill"><span>Node.js</span></div>
-      <div class="skill-pill"><span>Branding</span></div>
-      <div class="skill-pill"><span>Creative Direction</span></div>
-      <div class="skill-pill"><span>WebGL</span></div>
-      <div class="skill-pill"><span>Prototyping</span></div>
+      <div class="skill-pill"><span>Prompt Engineering</span></div>
     </div>
   </section>
 
@@ -1303,7 +1306,11 @@
 
     projectItems.forEach(item => {
       item.addEventListener('mouseenter', () => {
-        previewInner.textContent = item.dataset.num;
+        if (item.dataset.num === '01') {
+          previewInner.innerHTML = '<img src="pontune-preview.png" alt="Pontune preview">';
+        } else {
+          previewInner.textContent = item.dataset.num;
+        }
         preview.classList.add('visible');
       });
       item.addEventListener('mouseleave', () => {
